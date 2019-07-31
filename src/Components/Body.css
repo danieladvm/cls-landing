@@ -1,0 +1,98 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html, body, section {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.parallax {
+    padding: 10rem 13rem;
+    background: #07263a fixed no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.parallax i {
+    color: #7ebec5;
+}
+
+.parallax .container .row {
+    padding: 0 13rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.bg-portada {
+    padding: 15%;
+    background-image: url('../img/Grafica-Sedesss-18.jpg');
+}
+
+.reunion-general {
+    background-image: url('../img/reunion-general.jpg');
+    min-height: 20rem;
+}
+
+a {
+    cursor: pointer;
+}
+
+/*****************
+ * Media queries *
+*****************/
+@media (max-width: 544px) {
+    .parallax {
+        padding: 6rem 1rem;
+    }
+
+    .parallax .container .row {
+        padding: 0 1rem;
+    }
+
+    .display-1 {
+        font-size: 3rem;
+    }
+
+    .display-3, h1 {
+        font-size: 2rem;
+    }
+
+    .lead {
+        margin-top: 1rem;
+    }
+
+    .lead, h3 {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 544px) and (max-width: 768px) {
+    .parallax {
+        padding: 10rem 1rem;
+        background: #07263a fixed no-repeat 50% 50%;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .parallax {
+        padding: 10rem 1rem;
+        background: #07263a fixed no-repeat 50% 50%;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .parallax {
+        padding: 10rem 1rem;
+        background: #07263a fixed no-repeat 50% 50%;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 1200px) {
+
+}
+  
