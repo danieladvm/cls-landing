@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cls-landing/static/css/main.1aeb42e1.chunk.css",
+    "main.css": "/cls-landing/static/css/main.a6d96778.chunk.css",
     "main.js": "/cls-landing/static/js/main.44783f11.chunk.js",
     "main.js.map": "/cls-landing/static/js/main.44783f11.chunk.js.map",
     "runtime~main.js": "/cls-landing/static/js/runtime~main.4240c693.js",
@@ -9,10 +9,10 @@
     "static/js/2.c1016641.chunk.js": "/cls-landing/static/js/2.c1016641.chunk.js",
     "static/js/2.c1016641.chunk.js.map": "/cls-landing/static/js/2.c1016641.chunk.js.map",
     "index.html": "/cls-landing/index.html",
-    "precache-manifest.5d1b4f41c1fe96fe453c108569539199.js": "/cls-landing/precache-manifest.5d1b4f41c1fe96fe453c108569539199.js",
+    "precache-manifest.f60083c33c97884418dea281cff9d662.js": "/cls-landing/precache-manifest.f60083c33c97884418dea281cff9d662.js",
     "service-worker.js": "/cls-landing/service-worker.js",
     "static/css/2.9ba6e7c7.chunk.css.map": "/cls-landing/static/css/2.9ba6e7c7.chunk.css.map",
-    "static/css/main.1aeb42e1.chunk.css.map": "/cls-landing/static/css/main.1aeb42e1.chunk.css.map",
+    "static/css/main.a6d96778.chunk.css.map": "/cls-landing/static/css/main.a6d96778.chunk.css.map",
     "static/media/Body.css": "/cls-landing/static/media/reunion-general.ba1906e1.jpg",
     "static/media/SeccionSede.css": "/cls-landing/static/media/ramos.eb6dc47d.jpg",
     "static/media/all.min.css": "/cls-landing/static/media/fa-solid-900.f9b8a1aa.eot",
