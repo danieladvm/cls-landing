@@ -1,11 +1,42 @@
-.parallax i {
+.contacto {
+    padding: 6rem 0;
+}
+
+.contacto i {
     color: #7ebec5;
 }
 
-.parallax .container .row {
+.contacto .container .row {
     margin-bottom: 1rem;
 }
 
 .columna-icono {
     padding-right: 0;
+}
+
+/*****************
+ * Media queries *
+*****************/
+@media (max-width: 544px) {
+    .contacto {
+        padding: 4rem 0;
+    }
+}
+
+@media (min-width: 544px) and (max-width: 768px) {
+    .contacto {
+        padding: 4rem 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .contacto {
+        padding: 5rem 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .contacto {
+        padding: 5rem 0;
+    }
 }

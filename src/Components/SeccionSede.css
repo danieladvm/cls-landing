@@ -17,3 +17,7 @@
 #carolina-del-norte {
     background-image: url('../img/carolina.jpg');
 }
+
+button.informacion {
+    width: 10rem;
+}

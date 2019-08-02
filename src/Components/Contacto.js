@@ -5,7 +5,7 @@ import '../../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
 class Contacto extends Component {
     render() {
         return (
-            <section id="contacto" className="parallax text-white">
+            <section id="contacto" className="contacto text-white">
                 <h1 className="text-uppercase">Formas de contacto</h1>
                 <div className="container mt-4">
                     <div className="row">
