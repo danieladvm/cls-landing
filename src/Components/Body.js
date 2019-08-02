@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Body.css';
-import '../../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
 import SeccionSede from './SeccionSede'
+import Contacto from './Contacto'
 import { sedes } from "../data/sedes.json"
 
 class Body extends Component {
@@ -11,10 +11,6 @@ class Body extends Component {
             sedes
         }
     }
-
-    importAll = (r) => {
-        return r.keys().map(r);
-    };
 
     render() {
         const sedes = this.state.sedes.map((sede, i) => {
@@ -31,7 +27,7 @@ class Body extends Component {
         return (
             <div>
                 <section id="home" className="parallax bg-portada text-white">
-                    <h1 className="display-1 text-uppercase">Iglesia CLS</h1>
+                    <h1 className="display-1 text-uppercase">Cristo la Solución</h1>
                     <p className="lead">
                         <strong>San Justo, La Matanza, Buenos Aires, Argentina</strong>
                     </p>
@@ -44,35 +40,7 @@ class Body extends Component {
                 </section>
                 <section className="parallax reunion-general text-white"></section>
                 {sedes}
-                <section id="contacto" className="parallax text-white">
-                    <h1 className="text-uppercase">Formas de contacto</h1>
-                    <div className="container mt-4">
-                        <div className="row">
-                            <div className="col-sm-12 col-md">
-                                <i className="fas fa-phone-alt fa-lg mr-2"></i>4484-4517
-                        </div>
-                            <div className="col-sm-12 col-md">
-                                <i className="fas fa-phone-alt fa-lg mr-2"></i>4484-5385
-                        </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-sm-12 col-md">
-                                <i className="fas fa-mobile-alt fa-lg mr-2"></i>11-2864-8642
-                        </div>
-                            <div className="col-sm-12 col-md">
-                                <i className="fas fa-envelope fa-lg mr-2"></i>info@iglesia-cls.com
-                        </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-sm-12 col-md">
-                                <i className="fab fa-instagram fa-lg mr-2"></i>Alfredo Dimiro
-                        </div>
-                            <div className="col-sm-12 col-md">
-                                <i className="fab fa-facebook fa-lg mr-2"></i>Alfredo Dimiro
-                        </div>
-                        </div>
-                    </div>
-                </section>
+                <Contacto />
             </div>
         );
     }

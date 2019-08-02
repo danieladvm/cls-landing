@@ -15,16 +15,6 @@ html, body, section {
     background-size: cover;
 }
 
-.parallax i {
-    color: #7ebec5;
-}
-
-.parallax .container .row {
-    padding: 0 13rem;
-    text-align: left;
-    margin-bottom: 1rem;
-}
-
 .bg-portada {
     padding: 15%;
     background-image: url('../img/Grafica-Sedesss-18.jpg');
@@ -44,15 +34,15 @@ a {
 *****************/
 @media (max-width: 544px) {
     .parallax {
-        padding: 6rem 1rem;
+        padding: 5rem 1rem;
     }
 
-    .parallax .container .row {
-        padding: 0 1rem;
+    .bg-portada {
+        padding-top: 8rem;
     }
 
     .display-1 {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
     .display-3, h1 {
@@ -70,7 +60,27 @@ a {
 
 @media (min-width: 544px) and (max-width: 768px) {
     .parallax {
-        padding: 10rem 1rem;
+        padding: 5rem 1rem;
+    }
+
+    .bg-portada {
+        padding-top: 10rem;
+    }
+
+    .display-1 {
+        font-size: 3.2rem;
+    }
+
+    .display-3, h1 {
+        font-size: 2.2rem;
+    }
+
+    .lead {
+        margin-top: 1rem;
+    }
+
+    .lead, h3 {
+        font-size: 1.1rem;
     }
 }
 
