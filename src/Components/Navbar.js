@@ -9,17 +9,7 @@ class Navbar extends Component {
         this.state = {
             sedes
         }
-        //this.handleAgregarTarea = this.handleAgregarTarea.bind(this);
     }
-
-    // handleAgregarTarea(tarea) {
-    //     this.setState({
-    //         tareas: [...this.state.tareas, tarea]
-    //     });
-    // }
-
-    // removeTask = (task)=>{
-    //     this.state.ToDos.splice(task, 1);  ///Elimino el objeto del arreglo de ToDos
 
     render() {
 
